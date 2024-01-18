@@ -1,0 +1,119 @@
+/* responsive work start here */
+
+
+@media screen and (min-width:300px) and (max-width:576px){
+    nav{
+        text-align: center;
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #023b6d;
+        height: 100vh;
+        flex-direction: column;
+        width: 100%;  
+        transition: all 0.5s ease-in;
+    }
+    nav ul li{
+       margin: 13px 0;
+    }
+    nav ul li:hover, nav ul li :active{
+        background: none;
+        color: yellow;
+    }
+    .btn{
+        display: block;
+    }
+
+    #click:checked ~ ul {
+        left: 0%;
+    }
+    #click:checked ~ .btn i::before{
+        content: "\f00d";
+    }
+
+    /* card sectino code start */
+
+    .card-items{
+     margin-bottom: 30px;
+    }
+
+ }
+ @media screen and (min-width:577px) and (max-width:768px){
+    nav{
+        text-align: center;
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: rgb(95, 95, 151);
+        height: 100vh;
+        flex-direction: column;
+        width: 100%;  
+        transition: all 0.5s ease-in;
+    }
+    nav ul li{
+       margin: 13px 0;
+    }
+    nav ul li:hover, nav ul li :active{
+        background: none;
+        color: yellow;
+    }
+    .btn{
+        display: block;
+    }
+
+    #click:checked ~ ul {
+        left: 0%;
+    }
+    #click:checked ~ .btn i::before{
+        content: "\f00d";
+    }
+
+    /* card section start */
+    .card-items{
+     margin-bottom: 30px;
+    }
+    .card-items img{
+     width: 400px;
+     height: 400px;
+ }
+ .text-items{
+     width: 390px;
+ }
+ }
+ @media screen and (min-width:578px) and (max-width:993px){
+    nav{
+        text-align: center;
+    }
+    nav ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: rgb(95, 95, 151);
+        height: 100vh;
+        flex-direction: column;
+        width: 100%;  
+        transition: all 0.5s ease-in;
+    }
+    nav ul li{
+       margin: 13px 0;
+    }
+    nav ul li:hover, nav ul li :active{
+        background: none;
+        color: yellow;
+    }
+    .btn{
+        display: block;
+    }
+
+    #click:checked ~ ul {
+        left: 0%;
+    }
+    #click:checked ~ .btn i::before{
+        content: "\f00d";
+    } 
+  
+ }

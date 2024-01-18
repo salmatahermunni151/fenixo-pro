@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    height: 80px;
+    background-color: #023b6d;
+    color: aliceblue;
+}
+nav .logo{
+    font-size: 25px;
+}
+nav ul{
+   display: flex;
+   gap: 5px;
+}
+nav ul li{
+   list-style: none;
+   padding: 6px 12px;
+   transition: 0.5s;
+   border-radius: 5px;
+}
+nav ul li:hover{
+    background-color: blue;
+}
+#click{
+    display: none;
+}
+.btn{
+    display: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+
+
+
+/* card section start */
+
+#card-sec{
+    margin: 100px 0;
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 18px;
+    font-size: 30px;
+    color: crimson;
+}
+#card-container{
+  
+}
+.card-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card-items{
+    border: 1px solid gray;
+    padding: 10px;
+}
+.card-items img{
+    width: 300px;
+    height: 300px;
+}
+.text-items{
+    width: 290px;
+}
+.text-items h5{
+    padding: 10px 0;
+    color: red;
+    font-weight: 200;
+}
+.text-items h2{
+    font-size: 30px;
+}
+.text-items p{
+    padding: 10px 0 12px 0;
+    font-size: 15px;
+}
+.text-items button{
+    border: none;
+    color: blue;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+
