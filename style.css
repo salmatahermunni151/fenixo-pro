@@ -3,18 +3,23 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+header{
+    width: 100%;
+    height: 120vh;
+    background-image: url(images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 80px;
-    height: 80px;
-    background-color: #023b6d;
+    padding: 20px 30px;
     color: aliceblue;
 }
 nav .logo{
-    font-size: 25px;
+    font-size: 20px;
 }
 nav ul{
    display: flex;
@@ -25,10 +30,16 @@ nav ul li{
    padding: 6px 12px;
    transition: 0.5s;
    border-radius: 5px;
+   cursor: pointer;
 }
 nav ul li:hover{
-    background-color: blue;
+   color: aqua;
 }
+nav ul li i{
+    margin-right: 5px;
+    font-size: 13px;
+}
+
 #click{
     display: none;
 }
@@ -38,12 +49,47 @@ nav ul li:hover{
     font-size: 30px;
 }
 
+/* header first section code start here */
+#fin-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 90px 0;
+    margin: 0 100px;
+}
+.fin-text{
+    color: #fff;
+    width: 600px;
+}
+.fin-text h1{
+    font-size: 45px;
+}
+.fin-text p{
+    margin: 20px 0 30px 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.fin-text button{
+    color: #fff;
+    background-color: rgb(7, 175, 197);
+    font-size: 16px;
+    padding: 12px 28px;
+    border-radius: 2px;
+    border: none;
+    transition: 0.5s;
+}
+.fin-text button:hover{
+    background-color: rgb(13, 116, 163);
+}
+.banner-img img{
+    width: 500px;
+}
 
 
 
 /* card section start */
 
-#card-sec{
+/* #card-sec{
     margin: 100px 0;
 }
 .card-title{
@@ -51,9 +97,6 @@ nav ul li:hover{
     margin-bottom: 18px;
     font-size: 30px;
     color: crimson;
-}
-#card-container{
-  
 }
 .card-parent{
     display: flex;
@@ -90,6 +133,6 @@ nav ul li:hover{
     color: blue;
     font-size: 15px;
     padding-bottom: 10px;
-}
+} */
 
 
