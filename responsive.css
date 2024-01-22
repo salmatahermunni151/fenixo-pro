@@ -1,19 +1,20 @@
 /* responsive work start here */
 
-
-@media screen and (min-width:300px) and (max-width:576px){
-    header{
-        /* height: 100vh; */
-        position: fixed;
-        top: 0;
-        padding-bottom: 10%;
-    }
+@media screen and (min-width:300px) and (max-width:577px){
+     /* width: 100%;
+    height: 135vh;
+    background-image: url(images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
     nav{
         text-align: center;
+        background-color: #180d66;
     }
+
     nav ul{
         position: fixed;
-        top: 80px;
+        top: 70px;
         left: -100%;
         background-color: #180d66;
         height: 100vh;
@@ -48,6 +49,10 @@
     }
 
     /* main header section start */
+    .main-head{
+        width: 100%;
+        height: 110vh; 
+    }
     #fin-parent{
         display: block;
         margin: 0 20px;
@@ -73,18 +78,65 @@
         margin-top: 30px;
     }
     /* first section code start */
-
-
+    .service-title{
+        padding-bottom: 80px;
+        text-align: center;
+    }
+    .service-title h2{
+        font-size: 28px;
+    }
+    .service-title p{
+        margin: 8px 13px;
+        font-size: 16px;
+    }
+    #ser-sec{
+        margin: 140px 0 90px 0;
+        width: 100%;
+    }
+    #service-parent{
+        display: block;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 auto;
+        width: 80%;
+    }
+    .service-ite{
+        padding-bottom: 50px;
+    }
+    .service-ite h3{
+        padding: 13px 0 10px 0;
+        font-size: 18px;
+    }
+    .service-ite p{
+        padding-bottom: 13px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .service-ite a{
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: 500;
+        color: rgb(17, 4, 71);
+    }
+    #ser-sec button{
+        display: block;
+        margin: 0 auto;
+        padding: 10px 35px;
+        font-size: 12px;
+    }
+    .service-ite img{
+        width: 60px;
+        height: 60px;
+    } 
  }
  
  @media screen and (min-width:578px) and (max-width:768px){
-    header{
+    /* header{
         width: 100%;
         height: 120;
         position: fixed;
         top: 0;
         padding-bottom: 50%;
-    }
+    } */
     nav{
     text-align: center;
 }
@@ -120,9 +172,13 @@ nav ul li:hover, nav ul li :active{
     content: "\f00d";
 }
   /* main header section start */
+.main-head{
+    width: 100%;
+    height: 120vh; 
+}
   #fin-parent{
     display: block;
-    margin: 0 60px;
+    margin: 0 8%;
 }
 .fin-text{
     color: #fff;
@@ -140,20 +196,70 @@ nav ul li:hover, nav ul li :active{
     padding: 10px 22px;
 }
 .banner-img img{
-    width: 100%;
+    width: 80%;
     padding-top: 10px;
 }
 
+ /* first section code start */
+ .service-title{
+    padding-bottom: 80px;
+    text-align: center;
+}
+.service-title h2{
+    font-size: 30px;
+}
+.service-title p{
+    margin: 8px 13px;
+    font-size: 16px;
+}
+#ser-sec{
+    margin: 90px 0 90px 0;
+    width: 100%;
+}
+#service-parent{
+    display: block;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 auto;
+    width: 80%;
+}
+.service-ite{
+    padding-bottom: 50px;
+}
+.service-ite h3{
+    padding: 13px 0 10px 0;
+    font-size: 18px;
+}
+.service-ite p{
+    padding-bottom: 13px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.service-ite a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(17, 4, 71);
+}
+#ser-sec button{
+    display: block;
+    margin: 0 auto;
+    padding: 10px 35px;
+    font-size: 12px;
+}
+.service-ite img{
+    width: 60px;
+    height: 60px;
+} 
  
 }
 
 @media screen and (min-width:769px) and (max-width:992px){
     
-header{
+/* header{
     height: 70vh;
     position: fixed;
     top: 0; 
-}
+} */
 nav{
     display: flex;
     justify-content: space-between;
@@ -183,10 +289,14 @@ nav ul li i{
 }
 
 /* header first section code start here */
+.main-head{
+    width: 100%;
+    height: 110vh; 
+}
 #fin-parent{
     display: flex;
     justify-content: space-between;
-    padding: 15% 0;
+    padding: 10% 0;
     margin: 0 5%;
     gap: 5%;
 }
@@ -210,6 +320,41 @@ nav ul li i{
 }
 }
 
-/* @media screen and (min-width:993px) and (max-width:1400px){
-
-} */
+@media screen and (min-width:993px) and (max-width:1200px){
+    /* header{
+        width: 100%;
+        height: 95vh;
+        background-image: url(images/hero-bg.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; 
+    } */
+    .main-head{
+        width: 100%;
+        height: 135vh; 
+    }
+    #fin-parent{
+        display: flex;
+        justify-content: space-between;
+        padding: 8% 0;
+        margin: 0 5%;
+        gap: 5%;
+    }
+    .fin-text{
+        width: 130%;
+    }
+    .fin-text h1{
+        font-size: 40px;
+    }
+    .fin-text p{
+        margin: 20px 0 30px 0;
+        font-size: 14px;
+    }
+    .fin-text button{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+}
