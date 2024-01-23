@@ -164,7 +164,40 @@
         padding: 10px 36px;
     }
    
+    /* choose section responsive code start  */
+
+    #choose-sec{
+        margin: 60px 0;
+        width: 100%;
+    }
+    #choose-sec h2{
+       
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    #choose-par{
+        width: 90%;
+    }
+    .choose-items button{
+        padding: 20px;
+    }
+    button img{
+        width: 50px;
+        height: 50px;
+    }
     
+    #choose-par h5{
+        font-size: 22px;
+        margin-top: 11px;
+    }
+    
+    #choose-par p{
+       font-size: 13px;
+    }
+    .btn-1{
+        font-size: 14px;
+        padding: 10px 30px;
+    }
  }
  
  @media screen and (min-width:578px) and (max-width:768px){
@@ -328,6 +361,41 @@ nav ul li:hover, nav ul li :active{
     font-size: 13px;
     padding: 10px 36px;
 }
+
+ /* choose section responsive code start  */
+
+ #choose-sec{
+    margin: 60px 0;
+    width: 100%;
+}
+#choose-sec h2{
+   
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+#choose-par{
+    width: 90%;
+}
+.choose-items button{
+    padding: 20px;
+}
+button img{
+    width: 50px;
+    height: 50px;
+}
+
+#choose-par h5{
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+#choose-par p{
+   font-size: 14px;
+}
+.btn-1{
+    font-size: 14px;
+    padding: 10px 33px;
+}
 }
 
 @media screen and (min-width:769px) and (max-width:992px){
@@ -484,6 +552,38 @@ nav ul li i{
     font-size: 13px;
     padding: 10px 36px;
 }
+ /* choose section responsive code start  */
+
+ #choose-sec{
+    margin: 60px 0;
+    width: 100%;
+}
+#choose-sec h2{
+    font-size: 32px;
+}
+#choose-par{
+    width: 80%;
+}
+.choose-items button{
+    padding: 22px;
+}
+button img{
+    width: 50px;
+    height: 50px;
+}
+
+#choose-par h5{
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+#choose-par p{
+   font-size: 13px;
+}
+.btn-1{
+    font-size: 14px;
+    padding: 10px 30px;
+}
 }
 
 @media screen and (min-width:993px) and (max-width:1200px){
@@ -608,5 +708,39 @@ nav ul li i{
     .about-text button{
         font-size: 13px;
         padding: 10px 36px;
+    }
+     /* choose section responsive code start  */
+
+     #choose-sec{
+        margin: 60px 0;
+        width: 100%;
+    }
+    #choose-sec h2{
+       
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    #choose-par{
+        width: 90%;
+    }
+    .choose-items button{
+        padding: 20px;
+    }
+    button img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    #choose-par h5{
+        font-size: 22px;
+        margin-top: 11px;
+    }
+    
+    #choose-par p{
+       font-size: 15px;
+    }
+    .btn-1{
+        font-size: 14px;
+        padding: 10px 30px;
     }
 }

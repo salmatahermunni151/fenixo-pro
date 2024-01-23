@@ -212,7 +212,8 @@ hr{
 
 /* choose section code start */
 #choose-sec{
-    margin: 80px 0;
+    margin: 70px 0;
+    width: 100%;
 }
 #choose-sec h2{
     text-align: center;
@@ -228,7 +229,7 @@ hr{
     text-align: center;
 }
 .choose-items button{
-    padding: 20px;
+    padding: 25px;
     border: 5px solid  rgb(3, 3, 61);
     border-radius: 50%;
 }
@@ -243,9 +244,10 @@ button img{
 }
 
 #choose-par p{
-    padding: 11px 0 60px 0;
+    font-size: 16px;
+    padding: 11px 0 30px 0;
 }
-input{
+.btn-1{
     color: #ffffff;
     background-color: rgb(7, 175, 197);
     font-size: 16px;
@@ -254,6 +256,6 @@ input{
     border: none;
     transition: 0.5s;
 }
-input:hover{
+btn-1:hover{
     background-color: rgb(13, 116, 163);
 }
