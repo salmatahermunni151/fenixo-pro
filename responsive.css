@@ -92,7 +92,7 @@
         display: block;
         grid-template-columns: repeat(1,1fr);
         margin: 0 auto;
-        width: 80%;
+        width: 90%;
     }
     .service-ite{
         padding-bottom: 50px;
@@ -198,6 +198,39 @@
         font-size: 14px;
         padding: 10px 30px;
     }
+    /* team section code start */
+    #team-con{ 
+        width: 100%;
+    }
+    #team-par{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+    }
+    .team-items{
+        padding: 30px 10px;
+    }
+    .team-icon i{
+        font-size: 100%;
+        padding: 35px 5% 0;
+    }
+
+    /* review section code start */
+    #cust-sec{
+        width: 100%; 
+     }
+     .cust-title h2{
+        font-size: 28px;
+    }
+    #cust-par{
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .cust-items{
+        margin-bottom: 30px;
+    }
+    
  }
  
  @media screen and (min-width:578px) and (max-width:768px){
@@ -396,6 +429,44 @@ button img{
     font-size: 14px;
     padding: 10px 33px;
 }
+
+  /* team section code start */
+#team-con{ 
+    padding: 8% 0;
+    width: 100%;
+}
+#team-con h2{
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+#team-par{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 91%;
+}
+.team-items{
+    padding: 30px 5px;
+}
+.team-icon i{
+    font-size: 100%;
+    padding: 35px 5% 0;
+}
+
+ /* review section code start */
+ #cust-sec{
+    width: 100%; 
+ }
+ .cust-title h2{
+    font-size: 32px;
+}
+#cust-par{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+.cust-items{
+    margin-bottom: 30px;
+}
 }
 
 @media screen and (min-width:769px) and (max-width:992px){
@@ -482,7 +553,7 @@ nav ul li i{
 #service-parent{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    width: 80%;
+    width: 90%;
 }
 .service-ite{
     padding-bottom: 50px;
@@ -583,6 +654,45 @@ button img{
 .btn-1{
     font-size: 14px;
     padding: 10px 30px;
+}
+
+ /* team section code start */
+ #team-con{ 
+    padding: 8% 0;
+    width: 100%;
+}
+#team-con h2{
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+#team-par{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+}
+.team-items{
+    padding: 40px 5px 24px;
+}
+.team-icon i{
+    font-size: 130%;
+    padding: 35px 7% 0;
+}
+
+ /* review section code start */
+#cust-sec{
+    width: 100%; 
+ }
+ .cust-title h2{
+    font-size: 32px;
+}
+#cust-par{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    gap: 5%;
+}
+.cust-items{
+    margin-bottom: 30px;
 }
 }
 
@@ -743,4 +853,45 @@ button img{
         font-size: 14px;
         padding: 10px 30px;
     }
+
+    /* team section code start */
+ #team-con{ 
+    padding: 8% 0;
+    width: 100%;
+}
+#team-con h2{
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+#team-par{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+}
+.team-items{
+    padding: 40px 5px 24px;
+}
+.team-icon i{
+    font-size: 100%;
+    padding: 35px 12px 0;
+}
+.team-icon i{
+    font-size: 130%;
+    padding: 35px 3% 0;
+}
+/* review section code start */
+#cust-sec{
+    width: 100%; 
+ }
+ .cust-title h2{
+    font-size: 32px;
+}
+#cust-par{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+.cust-items{
+    margin-bottom: 30px;
+}
 }
