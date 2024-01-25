@@ -230,7 +230,21 @@
     .cust-items{
         margin-bottom: 30px;
     }
-    
+
+    /* footer section responsive code start */
+    #foot-parent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: 90%;
+    }
+
+    .foot-items input{
+       width: 100%;
+    }
+
+    .foot-items .btn-2{
+       width: 100%;
+    }
  }
  
  @media screen and (min-width:578px) and (max-width:768px){
@@ -467,6 +481,21 @@ button img{
 .cust-items{
     margin-bottom: 30px;
 }
+
+   /* footer section responsive code start */
+   #foot-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+}
+
+.foot-items input{
+   width: 100%;
+}
+
+.foot-items .btn-2{
+   width: 100%;
+}
 }
 
 @media screen and (min-width:769px) and (max-width:992px){
@@ -694,6 +723,21 @@ button img{
 .cust-items{
     margin-bottom: 30px;
 }
+
+   /* footer section responsive code start */
+   #foot-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 90%;
+}
+
+.foot-items input{
+   width: 100%;
+}
+
+.foot-items .btn-2{
+   width: 100%;
+}
 }
 
 @media screen and (min-width:993px) and (max-width:1200px){
@@ -889,9 +933,23 @@ button img{
 #cust-par{
     display: flex;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
 }
 .cust-items{
     margin-bottom: 30px;
+}
+/* footer section code start */
+#foot-parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+}
+
+.foot-items input{
+   width: 100%;
+}
+
+.foot-items .btn-2{
+   width: 100%;
 }
 }

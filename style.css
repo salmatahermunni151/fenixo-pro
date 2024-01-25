@@ -362,7 +362,7 @@ btn-1:hover{
 
 /* footer setion code start */
 #foot{
-   background-color: #021f36;
+   background-color: #02233d;
    color: #fff; 
    padding: 50px 0;
 }
@@ -371,16 +371,22 @@ btn-1:hover{
     grid-template-columns: repeat(4,1fr);
     width: 1100px;
     margin: 0 auto;
-    gap: 60px;
+    gap: 35px;
 }
 .foot-items h2{
     margin: 20px 0;
     font-weight: 500;
     font-size: 26px;
 }
+
 .foot-items p{
     margin: 18px 0;
     gap: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.foot-items p:hover{
+    color:rgb(15, 155, 219);
 }
 .foot-items a{
     text-decoration: none;
@@ -391,8 +397,9 @@ btn-1:hover{
     transition: 0.5s;
 }
 .foot-items i:hover{
-    color: aqua;
+    color:rgb(15, 155, 219);
 }
+
 .foot-icon i{
     font-size: 23px;
     padding: 10px 5px;
@@ -404,8 +411,39 @@ btn-1:hover{
     font-size: 16px;
     font-weight: 300;
 }
+
+.foot-items input{
+    background: none;
+    border: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    margin: 20px 0;
+    width: 265px;
+    padding: 10px 0;
+}
+.foot-items input::placeholder{
+    color: #fff;
+    font-size: 16px;
+   
+}
+.foot-items .btn-2{
+    background-color: rgb(7, 175, 197);
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    width: 265px;
+    padding: 14px 0;
+}
+.btn-2:hover{
+    background-color: rgb(13, 116, 163);
+}
 .copy h4{
     text-align: center;
-    color: #021f36;
+    color: #092033;
     background-color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 20px 0;
 }
